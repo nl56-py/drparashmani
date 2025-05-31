@@ -1,0 +1,8 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://drparashmani.com.np/sitemap.xml
+
+Disallow: /admin/
+Disallow: /viewer/
