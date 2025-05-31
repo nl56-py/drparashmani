@@ -388,124 +388,124 @@ const translations: Record<string, Record<Language, string>> = {
 
   // Kidney Transplant Programme
   'transplant.programme.title': {
-    en: 'Kidney Transplant Programme Leadership',
-    np: 'मिर्गौला प्रत्यारोपण कार्यक्रम नेतृत्व'
+    en: 'Bir Hospital Kidney Transplant Programme Leadership',
+    np: 'वीर अस्पताल मिर्गौला प्रत्यारोपण कार्यक्रम नेतृत्व'
   },
   'transplant.stats.surgeries': {
-    en: '200+ Surgeries',
-    np: '२००+ शल्यक्रियाहरू'
+    en: '150+ Surgeries',
+    np: '१५०+ शल्यक्रियाहरू'
   },
   'transplant.stats.performed': {
-    en: 'Successfully Performed',
-    np: 'सफलतापूर्वक सम्पन्न'
+    en: 'Successfully Performed at Bir Hospital',
+    np: 'वीर अस्पतालमा सफलतापूर्वक सम्पन्न'
   },
   'transplant.stats.success': {
-    en: 'High success rate in kidney transplant procedures',
-    np: 'मिर्गौला प्रत्यारोपण प्रक्रियामा उच्च सफलता दर'
+    en: 'Leading kidney transplant procedures with high success at Bir Hospital',
+    np: 'वीर अस्पतालमा उच्च सफलता दरका साथ मिर्गौला प्रत्यारोपण प्रक्रियाहरूको नेतृत्व'
   },
   'transplant.stats.rate': {
-    en: '95% Success Rate',
-    np: '९५% सफलता दर'
+    en: '92% Success Rate',
+    np: '९२% सफलता दर'
   },
   'transplant.stats.patient': {
-    en: 'Patient Survival',
-    np: 'बिरामी बाँच्ने दर'
+    en: 'Patient Survival at Bir Hospital',
+    np: 'वीर अस्पतालमा बिरामी बाँच्ने दर'
   },
   'transplant.stats.outcomes': {
-    en: 'Excellent long-term patient outcomes',
-    np: 'उत्कृष्ट दीर्घकालीन बिरामी परिणामहरू'
+    en: 'Consistently excellent outcomes in kidney transplantation',
+    np: 'मिर्गौला प्रत्यारोपणमा लगातार उत्कृष्ट परिणामहरू'
   },
   'transplant.stats.training': {
-    en: 'Advanced Training',
-    np: 'उन्नत तालिम'
+    en: 'Specialized Training',
+    np: 'विशेषीकृत तालिम'
   },
   'transplant.stats.programme': {
-    en: 'Transplant Programme',
-    np: 'प्रत्यारोपण कार्यक्रम'
+    en: 'Bir Hospital Transplant Program',
+    np: 'वीर अस्पताल प्रत्यारोपण कार्यक्रम'
   },
   'transplant.stats.leading': {
-    en: 'Leading Nepal\'s transplant education initiatives',
-    np: 'नेपालका प्रत्यारोपण शिक्षा पहलहरूको नेतृत्व'
+    en: 'Training specialists for Bir Hospital\'s transplant initiatives',
+    np: 'वीर अस्पतालको प्रत्यारोपण पहलहरूको लागि विशेषज्ञहरूको तालिम'
   },
 
   // Transplant Overview
   'transplant.overview.title': {
-    en: 'Nepal Kidney Transplant Programme Overview',
-    np: 'नेपाल मिर्गौला प्रत्यारोपण कार्यक्रम सिंहावलोकन'
+    en: 'Bir Hospital Kidney Transplant Programme Overview',
+    np: 'वीर अस्पताल मिर्गौला प्रत्यारोपण कार्यक्रम सिंहावलोकन'
   },
   'transplant.overview.description': {
-    en: 'Dr. Parash Mani Shrestha has been a pioneering force in establishing and advancing Nepal\'s kidney transplant programme. Since its inception, he has led the development of comprehensive transplant services, trained medical professionals, and ensured that Nepal meets international standards in transplant medicine. His expertise spans from donor evaluation to long-term recipient care, making him one of the most trusted names in transplant surgery in Nepal.',
-    np: 'डा. पारस मणि श्रेष्ठ नेपालको मिर्गौला प्रत्यारोपण कार्यक्रम स्थापना र विकासमा अग्रणी शक्ति हुनुहुन्छ। यसको स्थापनादेखि नै, उहाँले व्यापक प्रत्यारोपण सेवाहरूको विकासको नेतृत्व गर्नुभएको छ, चिकित्सा पेशेवरहरूलाई तालिम दिन, र नेपालले प्रत्यारोपण चिकित्सामा अन्तर्राष्ट्रिय मापदण्डहरू पूरा गरेको सुनिश्चित गर्नुभएको छ। उहाँको विशेषज्ञता दाता मूल्याङ्कनदेखि दीर्घकालीन प्राप्तकर्ता हेरचाहसम्म फैलिएको छ, जसले उहाँलाई नेपालमा प्रत्यारोपण शल्यक्रियामा सबैभन्दा भरपर्दो नामहरू मध्ये एक बनाएको छ।'
+    en: 'Dr. Parash Mani Shrestha has been a key figure in establishing and advancing the kidney transplant programme at Bir Hospital, Nepal\'s oldest and most prominent public hospital. His leadership has transformed the hospital into a center of excellence for kidney transplantation, training medical professionals and ensuring high standards of care tailored to the local context.',
+    np: 'डा. पारस मणि श्रेष्ठले नेपालको सबैभन्दा पुरानो र प्रमुख सार्वजनिक अस्पताल, वीर अस्पतालमा मिर्गौला प्रत्यारोपण कार्यक्रम स्थापना र विकासमा महत्वपूर्ण भूमिका खेल्नुभएको छ। उहाँको नेतृत्वले अस्पताललाई मिर्गौला प्रत्यारोपणको उत्कृष्ट केन्द्रमा परिणत गरेको छ, चिकित्सा पेशेवरहरूलाई तालिम प्रदान गर्दै र स्थानीय सन्दर्भमा अनुकूलित उच्च मापदण्डको हेरचाह सुनिश्चित गर्दै।'
   },
   'transplant.overview.experience': {
     en: 'Programme Experience',
     np: 'कार्यक्रम अनुभव'
   },
   'transplant.overview.experience.years': {
-    en: '15+ Years in Transplant Medicine',
-    np: 'प्रत्यारोपण चिकित्सामा १५+ वर्ष'
+    en: '10+ Years in Transplant Medicine at Bir Hospital',
+    np: 'वीर अस्पतालमा प्रत्यारोपण चिकित्सामा १०+ वर्ष'
   },
   'transplant.overview.impact': {
     en: 'Programme Impact',
     np: 'कार्यक्रम प्रभाव'
   },
   'transplant.overview.impact.desc': {
-    en: 'Transformed kidney care landscape in Nepal',
-    np: 'नेपालमा मिर्गौला हेरचाहको परिदृश्य परिवर्तन'
+    en: 'Transformed kidney care at Bir Hospital',
+    np: 'वीर अस्पतालमा मिर्गौला हेरचाह परिवर्तन'
   },
 
   // Transplant Contributions
   'transplant.contrib.title': {
-    en: 'Contributions to Kidney Transplant Programme',
-    np: 'मिर्गौला प्रत्यारोपण कार्यक्रममा योगदानहरू'
+    en: 'Contributions to Bir Hospital\'s Kidney Transplant Programme',
+    np: 'वीर अस्पतालको मिर्गौला प्रत्यारोपण कार्यक्रममा योगदानहरू'
   },
   'transplant.contrib.establishment': {
-    en: 'Programme Establishment',
-    np: 'कार्यक्रम स्थापना'
+    en: 'Bir Hospital Program Establishment',
+    np: 'वीर अस्पताल कार्यक्रम स्थापना'
   },
   'transplant.contrib.establishment.desc': {
-    en: 'Instrumental in establishing Nepal\'s first comprehensive kidney transplant programme, setting up protocols, training teams, and ensuring international standards of care.',
-    np: 'नेपालको पहिलो व्यापक मिर्गौला प्रत्यारोपण कार्यक्रम स्थापना गर्न, प्रोटोकलहरू स्थापना गर्न, टोलीहरूलाई तालिम दिन, र अन्तर्राष्ट्रिय हेरचाह मापदण्डहरू सुनिश्चित गर्नमा महत्वपूर्ण भूमिका।'
+    en: 'Played a pivotal role in initiating Bir Hospital\'s kidney transplant program, establishing protocols, securing infrastructure, and ensuring compliance with national health standards.',
+    np: 'वीर अस्पतालको मिर्गौला प्रत्यारोपण कार्यक्रम शुरू गर्न, प्रोटोकलहरू स्थापना गर्न, पूर्वाधार सुरक्षित गर्न, र राष्ट्रिय स्वास्थ्य मापदण्डहरूको पालना सुनिश्चित गर्नमा महत्वपूर्ण भूमिका।'
   },
   'transplant.contrib.establishment.impact': {
-    en: 'Foundation of modern transplant medicine in Nepal',
-    np: 'नेपालमा आधुनिक प्रत्यारोपण चिकित्साको आधार'
+    en: 'Made kidney transplants accessible at Nepal\'s oldest public hospital',
+    np: 'नेपालको सबैभन्दा पुरानो सार्वजनिक अस्पतालमा मिर्गौला प्रत्यारोपण पहुँचयोग्य बनायो'
   },
   'transplant.contrib.team': {
-    en: 'Multidisciplinary Team Training',
-    np: 'बहुविषयक टोली तालिम'
+    en: 'Training Bir Hospital\'s Transplant Team',
+    np: 'वीर अस्पतालको प्रत्यारोपण टोली तालिम'
   },
   'transplant.contrib.team.desc': {
-    en: 'Developed comprehensive training programs for surgeons, nephrologists, anesthetists, and nursing staff involved in transplant care.',
-    np: 'प्रत्यारोपण हेरचाहमा संलग्न शल्यचिकित्सकहरू, नेफ्रोलोजिस्टहरू, एनेस्थेटिस्टहरू, र नर्सिङ स्टाफहरूका लागि व्यापक तालिम कार्यक्रमहरू विकास।'
+    en: 'Developed specialized training modules for Bir Hospital\'s surgeons, nephrologists, and support staff, enhancing the hospital\'s capacity for transplant surgeries.',
+    np: 'वीर अस्पतालको शल्यचिकित्सकहरू, नेफ्रोलोजिस्टहरू, र सहयोगी कर्मचारीहरूका लागि विशेष तालिम मोड्युलहरू विकास, अस्पतालको प्रत्यारोपण शल्यक्रियाको क्षमता वृद्धि।'
   },
   'transplant.contrib.team.impact': {
-    en: 'Skilled transplant workforce across multiple hospitals',
-    np: 'धेरै अस्पतालहरूमा दक्ष प्रत्यारोपण कार्यबल'
+    en: 'Built a skilled transplant team at Bir Hospital',
+    np: 'वीर अस्पतालमा दक्ष प्रत्यारोपण टोली निर्माण'
   },
   'transplant.contrib.protocols': {
-    en: 'Clinical Protocols Development',
-    np: 'क्लिनिकल प्रोटोकल विकास'
+    en: 'Bir Hospital Protocol Development',
+    np: 'वीर अस्पताल प्रोटोकल विकास'
   },
   'transplant.contrib.protocols.desc': {
-    en: 'Created standardized protocols for donor evaluation, recipient selection, surgical procedures, and post-operative care specific to Nepal\'s healthcare context.',
-    np: 'नेपालको स्वास्थ्य सेवा सन्दर्भ अनुसार दाता मूल्याङ्कन, प्राप्तकर्ता छनोट, शल्यक्रिया प्रक्रिया, र शल्यक्रिया पछिको हेरचाहका लागि मानकीकृत प्रोटोकलहरू सिर्जना।'
+    en: 'Created tailored protocols for donor evaluation, surgical procedures, and post-operative care specific to Bir Hospital\'s resources and patient demographics.',
+    np: 'वीर अस्पतालको स्रोत र बिरामी जनसांख्यिकी अनुसार दाता मूल्याङ्कन, शल्यक्रिया प्रक्रिया, र शल्यक्रिया पछिको हेरचाहका लागि अनुकूलित प्रोटोकलहरू सिर्जना।'
   },
   'transplant.contrib.protocols.impact': {
-    en: 'Standardized care improving patient outcomes',
-    np: 'बिरामी परिणामहरू सुधार गर्ने मानकीकृत हेरचाह'
+    en: 'Improved patient safety and transplant success rates',
+    np: 'बिरामी सुरक्षा र प्रत्यारोपण सफलता दरहरूमा सुधार'
   },
-  'transplant.contrib.research': {
-    en: 'Research & Innovation',
-    np: 'अनुसन्धान र नवाचार'
+  'transplant.contrib.community': {
+    en: 'Community Outreach & Education',
+    np: 'समुदाय सम्पर्क र शिक्षा'
   },
-  'transplant.contrib.research.desc': {
-    en: 'Leading research initiatives in transplant immunology, infection prevention, and long-term outcomes in the Nepali population.',
-    np: 'नेपाली जनसंख्यामा प्रत्यारोपण इम्युनोलोजी, संक्रमण रोकथाम, र दीर्घकालीन परिणामहरूमा अनुसन्धान पहलहरूको नेतृत्व।'
+  'transplant.contrib.community.desc': {
+    en: 'Led initiatives to educate patients and families about kidney transplantation at Bir Hospital, increasing awareness and donor participation.',
+    np: 'वीर अस्पतालमा मिर्गौला प्रत्यारोपणको बारेमा बिरामी र परिवारहरूलाई शिक्षित गर्न पहलहरूको नेतृत्व, जागरूकता र दाता सहभागिता बढाउँदै।'
   },
-  'transplant.contrib.research.impact': {
-    en: 'Evidence-based improvements in transplant care',
-    np: 'प्रत्यारोपण हेरचाहमा प्रमाणमा आधारित सुधारहरू'
+  'transplant.contrib.community.impact': {
+    en: 'Enhanced public trust and engagement in transplant programs',
+    np: 'प्रत्यारोपण कार्यक्रमहरूमा सार्वजनिक विश्वास र संलग्नता वृद्धि'
   },
   'transplant.impact': {
     en: 'Impact',
