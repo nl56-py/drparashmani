@@ -1,141 +1,125 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main Pages -->
-  <url>
-    <loc>https://drparashmani.com.np</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/about</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/contact</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <!-- Expertise Section -->
-  <url>
-    <loc>https://drparashmani.com.np/expertise</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/expertise/kidney-transplant</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/expertise/turp-surgery</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/expertise/urologic-oncology</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/expertise/kidney-stone-treatment</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/expertise/prostate-diseases</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/expertise/bladder-diseases</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Urology Information Section -->
-  <url>
-    <loc>https://drparashmani.com.np/urology-info</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/urology-info/kidney-diseases</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/urology-info/prostate-health</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/urology-info/bladder-conditions</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/urology-info/urinary-tract-infections</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/urology-info/erectile-dysfunction</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/urology-info/nephrotic-syndrome</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Blog Section -->
-  <url>
-    <loc>https://drparashmani.com.np/blog</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Video Gallery -->
-  <url>
-    <loc>https://drparashmani.com.np/videos</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Language Alternatives -->
-  <url>
-    <loc>https://drparashmani.com.np/?lang=en</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://drparashmani.com.np/?lang=np</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+<url>
+<loc>https://drparashmani.com.np</loc>
+<lastmod>2025-05-28</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/about</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/contact</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/services</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/expertise</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/urology-info</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/blog</loc>
+<lastmod>2025-05-26</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/videos</loc>
+<lastmod>2025-05-26</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/blog/preventing-kidney-stone</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/blog/prostate-health-cancer-treatment-nepal</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/blog/kidney-transplant-in-nepal</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/blog/best-urologist-in-kathmandu</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/blog/advanced-urological-surgeries-nepal</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/blog/kidney-cancer-treatment-nepal</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/videos/kidney-stone-prevention</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/urology-info/kidney-stones</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/urology-info/benign-prostatic-hyperplasia</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/urology-info/urinary-tract-infection</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/urology-info/prostate-cancer</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/urology-info/nephrotic-syndrome</loc>
+<lastmod>2025-05-26</lastmod>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/lectures-abroad</loc>
+<lastmod>2025-05-31</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/contribution-to-naus</loc>
+<lastmod>2025-05-31</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/dr-as-teacher</loc>
+<lastmod>2025-05-31</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://drparashmani.com.np/lectures-abroad/advancing-urological-care-in-south-asia-innovations-and-collaborative-approaches</loc>
+<lastmod>2025-05-31</lastmod>
+<priority>0.8</priority>
+</url>
 </urlset>
