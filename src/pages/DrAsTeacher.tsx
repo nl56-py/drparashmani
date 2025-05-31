@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Header from '@/components/Header';
@@ -78,44 +77,44 @@ const DrAsTeacher = () => {
   const transplantStats = [
     {
       icon: <Heart className="h-8 w-8 text-red-500" />,
-      title: t('transplant.stats.surgeries') || "200+ Surgeries",
-      subtitle: t('transplant.stats.performed') || "Successfully Performed",
-      description: t('transplant.stats.success') || "High success rate in kidney transplant procedures"
+      title: t('transplant.stats.surgeries') || "150+ Surgeries",
+      subtitle: t('transplant.stats.performed') || "Successfully Performed at Bir Hospital",
+      description: t('transplant.stats.success') || "Leading kidney transplant procedures with high success at Bir Hospital"
     },
     {
       icon: <Activity className="h-8 w-8 text-green-500" />,
-      title: t('transplant.stats.rate') || "95% Success Rate",
-      subtitle: t('transplant.stats.patient') || "Patient Survival",
-      description: t('transplant.stats.outcomes') || "Excellent long-term patient outcomes"
+      title: t('transplant.stats.rate') || "92% Success Rate",
+      subtitle: t('transplant.stats.patient') || "Patient Survival at Bir Hospital",
+      description: t('transplant.stats.outcomes') || "Consistently excellent outcomes in kidney transplantation"
     },
     {
       icon: <Microscope className="h-8 w-8 text-blue-500" />,
-      title: t('transplant.stats.training') || "Advanced Training",
-      subtitle: t('transplant.stats.programme') || "Transplant Programme",
-      description: t('transplant.stats.leading') || "Leading Nepal's transplant education initiatives"
+      title: t('transplant.stats.training') || "Specialized Training",
+      subtitle: t('transplant.stats.programme') || "Bir Hospital Transplant Program",
+      description: t('transplant.stats.leading') || "Training specialists for Bir Hospital's transplant initiatives"
     }
   ];
 
   const transplantContributions = [
     {
-      title: t('transplant.contrib.establishment') || "Programme Establishment",
-      description: t('transplant.contrib.establishment.desc') || "Instrumental in establishing Nepal's first comprehensive kidney transplant programme, setting up protocols, training teams, and ensuring international standards of care.",
-      impact: t('transplant.contrib.establishment.impact') || "Foundation of modern transplant medicine in Nepal"
+      title: t('transplant.contrib.establishment') || "Bir Hospital Program Establishment",
+      description: t('transplant.contrib.establishment.desc') || "Played a pivotal role in initiating Bir Hospital's kidney transplant program, establishing protocols, securing infrastructure, and ensuring compliance with national health standards.",
+      impact: t('transplant.contrib.establishment.impact') || "Made kidney transplants accessible at Nepal's oldest public hospital"
     },
     {
-      title: t('transplant.contrib.team') || "Multidisciplinary Team Training",
-      description: t('transplant.contrib.team.desc') || "Developed comprehensive training programs for surgeons, nephrologists, anesthetists, and nursing staff involved in transplant care.",
-      impact: t('transplant.contrib.team.impact') || "Skilled transplant workforce across multiple hospitals"
+      title: t('transplant.contrib.team') || "Training Bir Hospital's Transplant Team",
+      description: t('transplant.contrib.team.desc') || "Developed specialized training modules for Bir Hospital's surgeons, nephrologists, and support staff, enhancing the hospital's capacity for transplant surgeries.",
+      impact: t('transplant.contrib.team.impact') || "Built a skilled transplant team at Bir Hospital"
     },
     {
-      title: t('transplant.contrib.protocols') || "Clinical Protocols Development",
-      description: t('transplant.contrib.protocols.desc') || "Created standardized protocols for donor evaluation, recipient selection, surgical procedures, and post-operative care specific to Nepal's healthcare context.",
-      impact: t('transplant.contrib.protocols.impact') || "Standardized care improving patient outcomes"
+      title: t('transplant.contrib.protocols') || "Bir Hospital Protocol Development",
+      description: t('transplant.contrib.protocols.desc') || "Created tailored protocols for donor evaluation, surgical procedures, and post-operative care specific to Bir Hospital's resources and patient demographics.",
+      impact: t('transplant.contrib.protocols.impact') || "Improved patient safety and transplant success rates"
     },
     {
-      title: t('transplant.contrib.research') || "Research & Innovation",
-      description: t('transplant.contrib.research.desc') || "Leading research initiatives in transplant immunology, infection prevention, and long-term outcomes in the Nepali population.",
-      impact: t('transplant.contrib.research.impact') || "Evidence-based improvements in transplant care"
+      title: t('transplant.contrib.community') || "Community Outreach & Education",
+      description: t('transplant.contrib.community.desc') || "Led initiatives to educate patients and families about kidney transplantation at Bir Hospital, increasing awareness and donor participation.",
+      impact: t('transplant.contrib.community.impact') || "Enhanced public trust and engagement in transplant programs"
     }
   ];
 
@@ -219,7 +218,7 @@ const DrAsTeacher = () => {
             {/* Kidney Transplant Programme Section */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-doctor-blue-dark mb-8 text-center">
-                {t('transplant.programme.title') || 'Kidney Transplant Programme Leadership'}
+                {t('transplant.programme.title') || 'Bir Hospital Kidney Transplant Programme Leadership'}
               </h2>
               
               {/* Transplant Statistics */}
@@ -249,21 +248,21 @@ const DrAsTeacher = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3">
                     <Heart className="h-8 w-8 text-red-500" />
-                    {t('transplant.overview.title') || 'Nepal Kidney Transplant Programme Overview'}
+                    {t('transplant.overview.title') || 'Bir Hospital Kidney Transplant Programme Overview'}
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-gray-700 leading-relaxed">
-                    {t('transplant.overview.description') || 'Dr. Parash Mani Shrestha has been a pioneering force in establishing and advancing Nepal\'s kidney transplant programme. Since its inception, he has led the development of comprehensive transplant services, trained medical professionals, and ensured that Nepal meets international standards in transplant medicine. His expertise spans from donor evaluation to long-term recipient care, making him one of the most trusted names in transplant surgery in Nepal.'}
+                    {t('transplant.overview.description') || 'Dr. Parash Mani Shrestha has been a key figure in establishing and advancing the kidney transplant programme at Bir Hospital, Nepal\'s oldest and most prominent public hospital. His leadership has transformed the hospital into a center of excellence for kidney transplantation, training medical professionals and ensuring high standards of care tailored to the local context.'}
                   </p>
                   <div className="grid md:grid-cols-2 gap-6 mt-6">
                     <div className="bg-red-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-red-800 mb-2">{t('transplant.overview.experience') || 'Programme Experience'}</h4>
-                      <p className="text-gray-700">{t('transplant.overview.experience.years') || '15+ Years in Transplant Medicine'}</p>
+                      <p className="text-gray-700">{t('transplant.overview.experience.years') || '10+ Years in Transplant Medicine at Bir Hospital'}</p>
                     </div>
                     <div className="bg-green-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-green-800 mb-2">{t('transplant.overview.impact') || 'Programme Impact'}</h4>
-                      <p className="text-gray-700">{t('transplant.overview.impact.desc') || 'Transformed kidney care landscape in Nepal'}</p>
+                      <p className="text-gray-700">{t('transplant.overview.impact.desc') || 'Transformed kidney care at Bir Hospital'}</p>
                     </div>
                   </div>
                 </CardContent>
@@ -272,7 +271,7 @@ const DrAsTeacher = () => {
               {/* Transplant Programme Contributions */}
               <div className="space-y-6">
                 <h3 className="text-2xl font-bold text-doctor-blue-dark text-center mb-6">
-                  {t('transplant.contrib.title') || 'Contributions to Kidney Transplant Programme'}
+                  {t('transplant.contrib.title') || 'Contributions to Bir Hospital\'s Kidney Transplant Programme'}
                 </h3>
                 {transplantContributions.map((contribution, index) => (
                   <Card key={index}>
