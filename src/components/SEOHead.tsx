@@ -136,6 +136,10 @@ const SEOHead: React.FC<SEOHeadProps> = ({
       "latitude": 27.7172,
       "longitude": 85.3240
     },
+    "openingHours": [
+      "Mo-Fr 09:00-17:00",
+      "Sa 09:00-13:00"
+    ],
     "worksFor": [
       {
         "@type": "Hospital",
@@ -324,7 +328,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
       <meta property="profile:last_name" content="Shrestha" />
       <meta property="profile:username" content="Dr. Parash Mani Shrestha" />
       {author && <meta property="article:author" content={author} />}
-      {publishedTime && <meta property="article:published_time" content={publishedTime} />
+      {publishedTime && <meta property="article:published_time" content={publishedTime} />}
 
       {/* Enhanced Twitter with improved alt text */}
       <meta name="twitter:card" content="summary_large_image" />
