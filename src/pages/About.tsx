@@ -311,19 +311,19 @@ const About = () => {
                         <ul className="ml-8 mt-2 space-y-1">
                           <li className="flex items-center">
                             <div className="h-1.5 w-1.5 rounded-full bg-doctor-blue mr-2"></div>
-                            <span>President (April 2023-Present)</span>
+                            <span>President (April 2025-Present)</span>
                           </li>
                           <li className="flex items-center">
                             <div className="h-1.5 w-1.5 rounded-full bg-doctor-blue mr-2"></div>
-                            <span>Vice President (April 2021-April 2023)</span>
+                            <span>Vice President </span>
                           </li>
                           <li className="flex items-center">
                             <div className="h-1.5 w-1.5 rounded-full bg-doctor-blue mr-2"></div>
-                            <span>General Secretary (2016-2018)</span>
+                            <span>General Secretary</span>
                           </li>
                           <li className="flex items-center">
                             <div className="h-1.5 w-1.5 rounded-full bg-doctor-blue mr-2"></div>
-                            <span>Treasurer (2010-2016)</span>
+                            <span>Treasurer </span>
                           </li>
                           <li className="flex items-center">
                             <div className="h-1.5 w-1.5 rounded-full bg-doctor-blue mr-2"></div>
@@ -354,19 +354,19 @@ const About = () => {
                         <ul className="ml-8 mt-2 space-y-1">
                           <li className="flex items-center">
                             <div className="h-1.5 w-1.5 rounded-full bg-doctor-blue mr-2"></div>
-                            <span>अध्यक्ष (अप्रिल २०२३-हालसम्म)</span>
+                            <span>अध्यक्ष (अप्रिल २०२५-हालसम्म)</span>
                           </li>
                           <li className="flex items-center">
                             <div className="h-1.5 w-1.5 rounded-full bg-doctor-blue mr-2"></div>
-                            <span>उपाध्यक्ष (अप्रिल २०२१-अप्रिल २०२३)</span>
+                            <span>उपाध्यक्ष </span>
                           </li>
                           <li className="flex items-center">
                             <div className="h-1.5 w-1.5 rounded-full bg-doctor-blue mr-2"></div>
-                            <span>महासचिव (२०१६-२०१८)</span>
+                            <span>महासचिव </span>
                           </li>
                           <li className="flex items-center">
                             <div className="h-1.5 w-1.5 rounded-full bg-doctor-blue mr-2"></div>
-                            <span>कोषाध्यक्ष (२०१०-२०१६)</span>
+                            <span>कोषाध्यक्ष </span>
                           </li>
                           <li className="flex items-center">
                             <div className="h-1.5 w-1.5 rounded-full bg-doctor-blue mr-2"></div>
