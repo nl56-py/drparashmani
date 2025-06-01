@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Helmet } from 'react-helmet-async';
@@ -25,23 +24,23 @@ const SEOHead: React.FC<SEOHeadProps> = ({
   structuredData,
 }) => {
   const { language } = useLanguage();
-  
+
   // Enhanced keywords with local intent and medical specialties
-  const defaultKeywordsEn = 'Dr Parash Mani Shrestha, dr parash mani shrestha, parash mani shrestha, dr parash mani, urologist parash mani shrestha, best urologist in Kathmandu, kidney stone surgeon Nepal, urologic cancer treatment Kathmandu, prostate treatment Nepal, urology specialist Kathmandu, TURP surgery Nepal, kidney transplant doctor Nepal, Blue Cross Hospital urologist, Bir Hospital urologist, Nepal urologist, urologist near me Kathmandu';
-  const defaultKeywordsNp = 'डा पारस मणि श्रेष्ठ, डा पारस मणि श्रेष्ठ मूत्ररोग विशेषज्ञ, काठमाडौंमा उत्तम मूत्ररोग विशेषज्ञ, नेपालमा मिर्गौला पथरी शल्यचिकित्सक, काठमाडौंमा मूत्ररोग क्यान्सर उपचार, नेपालमा प्रोस्टेट उपचार, काठमाडौंमा मूत्ररोग विशेषज्ञ';
-  
+  const defaultKeywordsEn = 'urologist in Kathmandu, best urologist in Kathmandu, top urologist Kathmandu, kidney specialist Kathmandu, urology doctor Kathmandu, Dr Parash Mani Shrestha, Blue Cross Hospital urologist, kidney transplant Nepal, prostate treatment Kathmandu, TURP surgery Kathmandu, urologic cancer treatment Nepal';
+  const defaultKeywordsNp = 'काठमाडौंमा युरोलोजिस्ट, काठमाडौंमा उत्तम मूत्ररोग विशेषज्ञ, डा पारस मणि श्रेष्ठ, ब्लु क्रस अस्पताल मूत्ररोग विशेषज्ञ, नेपालमा मिर्गौला प्रत्यारोपण, काठमाडौंमा प्रोस्टेट उपचार, TURP शल्यक्रिया नेपाल';
+
   const defaultKeywords = language === 'en' ? defaultKeywordsEn : defaultKeywordsNp;
-  
-  const siteTitle = 'Dr. Parash Mani Shrestha - Nepal\'s Leading Urologist';
+
+  const siteTitle = 'Best Urologist in Kathmandu - Dr. Parash Mani Shrestha';
   const fullTitle = title.includes('Dr. Parash Mani Shrestha') ? title : `${title} | ${siteTitle}`;
-  
+
   // Fallback image for social sharing
   const fallbackImage = 'https://drparashmani.com.np/lovable-uploads/5c81b557-5e86-4894-8135-0496808d13cf.png';
-  
+
   // Generate dynamic breadcrumbs based on canonical path
   const generateBreadcrumbs = (canonicalPath: string) => {
     if (!canonicalPath || canonicalPath === '/') return null;
-    
+
     const pathSegments = canonicalPath.split('/').filter(Boolean);
     const breadcrumbItems = [
       {
@@ -51,7 +50,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
         "item": "https://drparashmani.com.np"
       }
     ];
-    
+
     let currentPath = '';
     pathSegments.forEach((segment, index) => {
       currentPath += `/${segment}`;
@@ -63,7 +62,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
         "item": `https://drparashmani.com.np${currentPath}`
       });
     });
-    
+
     return {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -73,11 +72,11 @@ const SEOHead: React.FC<SEOHeadProps> = ({
 
   // Only apply comprehensive schemas on homepage
   const isHomepage = canonical === '/' || !canonical;
-  
-  // Enhanced medical schema only for homepage - optimized for ranking
+
+  // Enhanced medical schema with local SEO for homepage
   const enhancedMedicalSchema = isHomepage ? {
     "@context": "https://schema.org",
-    "@type": ["Physician", "Person"],
+    "@type": ["Physician", "Person", "LocalBusiness"],
     "name": "Dr. Parash Mani Shrestha",
     "alternateName": [
       "Dr Parash Mani Shrestha",
@@ -92,7 +91,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
         "name": "Urology"
       },
       {
-        "@type": "MedicalSpecialty", 
+        "@type": "MedicalSpecialty",
         "name": "Urosurgery"
       },
       {
@@ -104,13 +103,13 @@ const SEOHead: React.FC<SEOHeadProps> = ({
         "name": "Urologic Oncology"
       }
     ],
-    "description": "Dr. Parash Mani Shrestha is Nepal's leading urologist and urosurgeon with over 20 years of experience, specializing in kidney transplants, TURP surgery, and urologic cancer treatments at Blue Cross Hospital and Bir Hospital in Kathmandu.",
+    "description": "Dr. Parash Mani Shrestha, the best urologist in Kathmandu, provides expert urology services at Blue Cross Hospital and Bir Hospital, specializing in kidney transplants, TURP surgery, and urologic cancer treatments.",
     "url": "https://drparashmani.com.np",
     "image": {
       "@type": "ImageObject",
       "url": "https://drparashmani.com.np/lovable-uploads/ec142a21-cb09-4e88-baf2-e729d0027613.png",
-      "width": 800,
-      "height": 600
+      "width": 1200,
+      "height": 630
     },
     "telephone": "+977-1-4262331",
     "address": [
@@ -125,13 +124,18 @@ const SEOHead: React.FC<SEOHeadProps> = ({
       },
       {
         "@type": "PostalAddress",
-        "name": "Bir Hospital", 
+        "name": "Bir Hospital",
         "streetAddress": "Mahabouddha",
         "addressLocality": "Kathmandu",
         "addressRegion": "Bagmati Province",
         "addressCountry": "Nepal"
       }
     ],
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 27.7172,
+      "longitude": 85.3240
+    },
     "worksFor": [
       {
         "@type": "Hospital",
@@ -151,14 +155,14 @@ const SEOHead: React.FC<SEOHeadProps> = ({
           "@type": "PostalAddress",
           "streetAddress": "Mahabouddha",
           "addressLocality": "Kathmandu",
-          "addressRegion": "Bagmati Province", 
+          "addressRegion": "Bagmati Province",
           "addressCountry": "Nepal"
         }
       }
     ],
     "areaServed": {
-      "@type": "Country",
-      "name": "Nepal"
+      "@type": "City",
+      "name": "Kathmandu"
     },
     "hasCredential": [
       {
@@ -178,17 +182,18 @@ const SEOHead: React.FC<SEOHeadProps> = ({
     },
     "sameAs": [
       "https://drparashmani.com.np"
-    ]
+    ],
+    "keywords": ["urologist in Kathmandu", "best urologist Kathmandu", "kidney specialist Kathmandu"]
   } : null;
 
   // Website schema only for homepage
   const websiteSchema = isHomepage ? {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Dr. Parash Mani Shrestha - Urologist Nepal",
+    "name": "Dr. Parash Mani Shrestha - Urologist in Kathmandu",
     "alternateName": "Dr Parash Mani Shrestha",
     "url": "https://drparashmani.com.np",
-    "description": "Official website of Dr. Parash Mani Shrestha, Nepal's leading urologist specializing in kidney transplants, TURP surgery, and urologic cancer treatments.",
+    "description": "Official website of Dr. Parash Mani Shrestha, the best urologist in Kathmandu, specializing in kidney transplants, TURP surgery, and urologic cancer treatments.",
     "publisher": {
       "@type": "Person",
       "name": "Dr. Parash Mani Shrestha"
@@ -213,7 +218,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
       "@type": "ImageObject",
       "url": "https://drparashmani.com.np/lovable-uploads/ec142a21-cb09-4e88-baf2-e729d0027613.png"
     },
-    "description": "Leading urology practice in Nepal providing comprehensive urological care including kidney transplants, cancer treatment, and minimally invasive procedures.",
+    "description": "Leading urology practice in Kathmandu providing comprehensive urological care including kidney transplants, cancer treatment, and minimally invasive procedures.",
     "address": [
       {
         "@type": "PostalAddress",
@@ -227,7 +232,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
         "@type": "PostalAddress",
         "name": "Bir Hospital",
         "streetAddress": "Mahabouddha",
-        "addressLocality": "Kathmandu", 
+        "addressLocality": "Kathmandu",
         "addressRegion": "Bagmati Province",
         "addressCountry": "Nepal"
       }
@@ -251,7 +256,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
         "name": "Who is Dr. Parash Mani Shrestha?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dr. Parash Mani Shrestha is Nepal's leading urologist and urosurgeon with over 20 years of experience. He specializes in kidney transplants, TURP surgery, urologic cancer treatments, and serves as Senior Consultant at Blue Cross Hospital and Bir Hospital in Kathmandu."
+          "text": "Dr. Parash Mani Shrestha is the best urologist in Kathmandu with over 20 years of experience, specializing in kidney transplants, TURP surgery, and urologic cancer treatments at Blue Cross Hospital and Bir Hospital."
         }
       },
       {
@@ -259,15 +264,15 @@ const SEOHead: React.FC<SEOHeadProps> = ({
         "name": "What urological conditions does Dr. Parash Mani Shrestha treat?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dr. Parash Mani Shrestha treats kidney stones, prostate diseases, urologic cancers, bladder conditions, performs kidney transplants, TURP surgeries, and provides comprehensive urological care for patients in Nepal."
+          "text": "Dr. Parash Mani Shrestha treats kidney stones, prostate diseases, urologic cancers, bladder conditions, performs kidney transplants, TURP surgeries, and provides comprehensive urological care in Kathmandu."
         }
       },
       {
-        "@type": "Question", 
+        "@type": "Question",
         "name": "Where does Dr. Parash Mani Shrestha practice in Kathmandu?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dr. Parash Mani Shrestha practices at Blue Cross Hospital in Tripureshwor and Bir Hospital in Kathmandu, Nepal. He serves as Senior Consultant Urosurgeon at both locations."
+          "text": "Dr. Parash Mani Shrestha practices at Blue Cross Hospital in Tripureshwor and Bir Hospital in Kathmandu, Nepal, as a Senior Consultant Urosurgeon."
         }
       },
       {
@@ -275,7 +280,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
         "name": "How can I book an appointment with Dr. Parash Mani Shrestha?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You can book appointments with Dr. Parash Mani Shrestha by contacting Blue Cross Hospital at +977-1-4262331 or visiting the hospitals directly. He is available for consultations at both Blue Cross Hospital and Bir Hospital."
+          "text": "You can book an appointment with Dr. Parash Mani Shrestha by contacting Blue Cross Hospital at +977-1-4262331 or visiting the hospitals directly in Kathmandu."
         }
       }
     ]
@@ -298,84 +303,70 @@ const SEOHead: React.FC<SEOHeadProps> = ({
     <Helmet>
       <title>{fullTitle}</title>
       <meta name="title" content={fullTitle} />
-      <meta name="description" content={description} />
+      <meta name="description" content={description || 'Dr. Parash Mani Shrestha, the best urologist in Kathmandu, offers expert care at Blue Cross Hospital. Book your appointment for kidney, prostate, and cancer treatments!'} />
       <meta name="keywords" content={keywords || defaultKeywords} />
       <meta name="author" content={author} />
       <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-      
-      {/* Add last-modified meta tag for freshness */}
-      <meta name="last-modified" content={publishedTime || new Date().toISOString().split('T')[0]} />
-      
+      <meta name="last-modified" content={publishedTime || '2025-06-01'} />
+
       {/* Enhanced Open Graph / Facebook with fallback */}
       <meta property="og:type" content="profile" />
       <meta property="og:title" content={fullTitle} />
-      <meta property="og:description" content={description} />
+      <meta property="og:description" content={description || 'Dr. Parash Mani Shrestha, the best urologist in Kathmandu, provides expert urology services at Blue Cross Hospital and Bir Hospital. Book your appointment today!'} />
       <meta property="og:image" content={ogImage} />
       <meta property="og:image:fallback" content={fallbackImage} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Dr. Parash Mani Shrestha - Nepal's Leading Urologist & Senior Consultant Urosurgeon" />
+      <meta property="og:image:alt" content="Dr. Parash Mani Shrestha - Best Urologist in Kathmandu" />
       <meta property="og:site_name" content="Dr. Parash Mani Shrestha" />
       <meta property="og:locale" content={language === 'en' ? 'en_US' : 'ne_NP'} />
       <meta property="profile:first_name" content="Parash Mani" />
       <meta property="profile:last_name" content="Shrestha" />
       <meta property="profile:username" content="Dr. Parash Mani Shrestha" />
       {author && <meta property="article:author" content={author} />}
-      {publishedTime && <meta property="article:published_time" content={publishedTime} />}
-      
+      {publishedTime && <meta property="article:published_time" content={publishedTime} />
+
       {/* Enhanced Twitter with improved alt text */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:description" content={description || 'Dr. Parash Mani Shrestha, the best urologist in Kathmandu, offers expert care at Blue Cross Hospital. Book your appointment for urology treatments!'} />
       <meta name="twitter:image" content={ogImage} />
-      <meta name="twitter:image:alt" content="Dr. Parash Mani Shrestha - Nepal's Leading Urologist & Senior Consultant Urosurgeon providing expert medical care" />
-      
+      <meta name="twitter:image:alt" content="Dr. Parash Mani Shrestha - Best Urologist in Kathmandu providing expert medical care" />
+
       {/* Additional meta tags for better indexing */}
       <meta name="geo.region" content="NP-3" />
       <meta name="geo.placename" content="Kathmandu" />
       <meta name="geo.position" content="27.7172;85.3240" />
       <meta name="ICBM" content="27.7172, 85.3240" />
-      
+
       {/* Medical specific meta tags */}
       <meta name="DC.title" content={fullTitle} />
       <meta name="DC.creator" content="Dr. Parash Mani Shrestha" />
-      <meta name="DC.subject" content="Urology, Medical Services, Healthcare" />
-      <meta name="DC.description" content={description} />
-      
+      <meta name="DC.subject" content="Urology, Medical Services, Healthcare, Kidney Transplant, TURP Surgery" />
+      <meta name="DC.description" content={description || 'Leading urologist in Kathmandu specializing in kidney transplants, TURP surgery, and urologic cancer treatments.'} />
+
       {/* Canonical URL */}
       {canonical && <link rel="canonical" href={`https://drparashmani.com.np${canonical}`} />}
-      
-      {/* Hreflang tags for language alternatives */}
-      <link 
-        rel="alternate" 
-        hrefLang="en"
-        href={`https://drparashmani.com.np${canonical || ''}?lang=en`}
-      />
-      <link 
-        rel="alternate" 
-        hrefLang="ne"
-        href={`https://drparashmani.com.np${canonical || ''}?lang=np`}
-      />
-      <link 
-        rel="alternate" 
-        hrefLang="x-default"
-        href={`https://drparashmani.com.np${canonical || ''}`}
-      />
-      
+
+      {/* Hreflang tags for language alternatives (no query parameters) */}
+      <link rel="alternate" hrefLang="en" href={`https://drparashmani.com.np${canonical || ''}`} />
+      <link rel="alternate" hrefLang="ne" href={`https://drparashmani.com.np${canonical || ''}`} />
+      <link rel="alternate" hrefLang="x-default" href={`https://drparashmani.com.np${canonical || ''}`} />
+
       {/* Page-specific structured data */}
       {structuredData && (
         <script type="application/ld+json">
           {safeStringify(structuredData)}
         </script>
       )}
-      
+
       {/* Homepage-only schemas to prevent duplication */}
       {enhancedMedicalSchema && (
         <script type="application/ld+json">
           {safeStringify(enhancedMedicalSchema)}
         </script>
       )}
-      
+
       {websiteSchema && (
         <script type="application/ld+json">
           {safeStringify(websiteSchema)}
@@ -399,11 +390,11 @@ const SEOHead: React.FC<SEOHeadProps> = ({
           {safeStringify(breadcrumbSchema)}
         </script>
       )}
-      
+
       {/* Preconnect for performance */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-      
+
       {/* Blog content styling */}
       <style>{`
         .blog-content img {
@@ -413,29 +404,29 @@ const SEOHead: React.FC<SEOHeadProps> = ({
           margin: 1.5rem auto;
           border-radius: 0.375rem;
         }
-        
-        .blog-content h1, .blog-content h2, .blog-content h3, 
+
+        .blog-content h1, .blog-content h2, .blog-content h3,
         .blog-content h4, .blog-content h5, .blog-content h6 {
           margin-top: 1.5rem;
           margin-bottom: 0.75rem;
           font-weight: 600;
           line-height: 1.2;
         }
-        
+
         .blog-content p {
           margin-bottom: 1rem;
           line-height: 1.7;
         }
-        
+
         .blog-content ul, .blog-content ol {
           margin-bottom: 1rem;
           padding-left: 1.5rem;
         }
-        
+
         .blog-content li {
           margin-bottom: 0.5rem;
         }
-        
+
         .blog-content blockquote {
           border-left: 4px solid #0096cc;
           padding-left: 1rem;
@@ -444,7 +435,7 @@ const SEOHead: React.FC<SEOHeadProps> = ({
           font-style: italic;
           color: #4b5563;
         }
-        
+
         .blog-content pre {
           background-color: #f3f4f6;
           padding: 1rem;
@@ -452,19 +443,19 @@ const SEOHead: React.FC<SEOHeadProps> = ({
           overflow-x: auto;
           margin-bottom: 1rem;
         }
-        
+
         .blog-content table {
           width: 100%;
           border-collapse: collapse;
           margin-bottom: 1rem;
         }
-        
+
         .blog-content th, .blog-content td {
           border: 1px solid #e5e7eb;
           padding: 0.5rem;
           text-align: left;
         }
-        
+
         .blog-content th {
           background-color: #f9fafb;
         }
