@@ -57,8 +57,8 @@ export const expertiseData = [
       {
         titleEn: 'Successful Transplants',
         titleNp: 'सफल प्रत्यारोपण',
-        valueEn: '200+',
-        valueNp: '२००+',
+        valueEn: '300+',
+        valueNp: '३००+',
         icon: '🏥'
       },
       {
