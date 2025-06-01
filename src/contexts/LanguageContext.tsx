@@ -392,8 +392,8 @@ const translations: Record<string, Record<Language, string>> = {
     np: 'वीर अस्पताल मिर्गौला प्रत्यारोपण कार्यक्रम नेतृत्व'
   },
   'transplant.stats.surgeries': {
-    en: '150+ Surgeries',
-    np: '१५०+ शल्यक्रियाहरू'
+    en: '300+ Surgeries',
+    np: '३००+ शल्यक्रियाहरू'
   },
   'transplant.stats.performed': {
     en: 'Successfully Performed at Bir Hospital',
