@@ -9,7 +9,7 @@ import { CheckCircle, Briefcase, GraduationCap, Users, BookOpen } from 'lucide-r
 const About = () => {
   const { t, language } = useLanguage();
   
-  const seoKeywordsEn = "urologist biography, Dr. Parash Mani Shrestha, Nepal urologist, urology specialist, kidney transplant surgeon, endourology, laparoscopic urosurgery";
+  const seoKeywordsEn = "know doctor parash mani , Dr. Parash Mani Shrestha, Nepal urologist, urology in kathmandu , kidney transplant surgeon, prostate surgery, laparoscopic urosurgery";
   const seoKeywordsNp = "मूत्र रोग विशेषज्ञ जीवनी, डा. पारस मणि श्रेष्ठ, नेपाली मूत्र रोग विशेषज्ञ, मूत्र रोग विशेषज्ञ, मिर्गौला प्रत्यारोपण शल्यचिकित्सक";
   
   const seoDescription = language === 'en'
