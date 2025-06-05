@@ -6,7 +6,7 @@
     <xhtml:link rel="alternate" hrefLang="en" href="https://drparashmani.com.np/" />
     <xhtml:link rel="alternate" hrefLang="ne" href="https://drparashmani.com.np/" />
     <xhtml:link rel="alternate" hrefLang="x-default" href="https://drparashmani.com.np/" />
-    <lastmod>2025-06-01</lastmod>
+    <lastmod>2025-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -62,7 +62,7 @@
     <loc>https://drparashmani.com.np/videos</loc>
     <xhtml:link rel="alternate" hrefLang="en" href="https://drparashmani.com.np/videos" />
     <xhtml:link rel="alternate" hrefLang="ne" href="https://drparashmani.com.np/videos" />
-    <lastmod>2025-06-01</lastmod>
+    <lastmod>2025-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -119,10 +119,10 @@
 
   <!-- Video Pages -->
   <url>
-    <loc>https://drparashmani.com.np/videos/kidney-stone-prevention</loc>
-    <xhtml:link rel="alternate" hrefLang="en" href="https://drparashmani.com.np/videos/kidney-stone-prevention" />
-    <xhtml:link rel="alternate" hrefLang="ne" href="https://drparashmani.com.np/videos/kidney-stone-prevention" />
-    <lastmod>2025-06-01</lastmod>
+    <loc>https://drparashmani.com.np/videos/how-are-kidney-stones-treated-in-nepal</loc>
+    <xhtml:link rel="alternate" hrefLang="en" href="https://drparashmani.com.np/videos/how-are-kidney-stones-treated-in-nepal" />
+    <xhtml:link rel="alternate" hrefLang="ne" href="https://drparashmani.com.np/videos/how-are-kidney-stones-treated-in-nepal" />
+    <lastmod>2025-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -182,7 +182,7 @@
     <loc>https://drparashmani.com.np/contribution-to-naus</loc>
     <xhtml:link rel="alternate" hrefLang="en" href="https://drparashmani.com.np/contribution-to-naus" />
     <xhtml:link rel="alternate" hrefLang="ne" href="https://drparashmani.com.np/contribution-to-naus" />
-    <lastmod>2025-06-01</lastmod>
+    <lastmod>2025-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
