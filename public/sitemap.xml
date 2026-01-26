@@ -116,6 +116,21 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://drparashmani.com.np/blog/kidney-transplant-nepal-dr-parash-mani-shrestha</loc>
+    <xhtml:link rel="alternate" hrefLang="en" href="https://drparashmani.com.np/blog/kidney-cancer-treatment-nepal" />
+    <xhtml:link rel="alternate" hrefLang="ne" href="https://drparashmani.com.np/blog/kidney-cancer-treatment-nepal" />
+    <lastmod>2025-11-06</lastmod>
+      <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://drparashmani.com.np/blog/ai-tfl-rirs-stonesense-kidney-stone-surgery</loc>
+    <xhtml:link rel="alternate" hrefLang="en" href="https://drparashmani.com.np/blog/kidney-cancer-treatment-nepal" />
+    <xhtml:link rel="alternate" hrefLang="ne" href="https://drparashmani.com.np/blog/kidney-cancer-treatment-nepal" />
+    <lastmod>2025-12-03</lastmod>
+      <priority>0.8</priority>
+  </url>
+  
 
   <!-- Video Pages -->
   <url>
@@ -142,7 +157,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
+<url>
+    <loc>https://drparashmani.com.np/videos/why-every-man-over-50-needs-a-prostate-checkup-a-comprehensive-guide</loc>
+    <xhtml:link rel="alternate" hrefLang="en" href="https://drparashmani.com.np/videos/what-to-eat-to-prevent-kidney-stones-in-nepal" />
+    <xhtml:link rel="alternate" hrefLang="ne" href="https://drparashmani.com.np/videos/what-to-eat-to-prevent-kidney-stones-in-nepal" />
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://drparashmani.com.np/videos/ai-powered-tfl-rirs-with-stonesense-no-incision-kidney-stone-surgery-dr-parash-mani-shrestha</loc>
+    <xhtml:link rel="alternate" hrefLang="en" href="https://drparashmani.com.np/videos/what-to-eat-to-prevent-kidney-stones-in-nepal" />
+    <xhtml:link rel="alternate" hrefLang="ne" href="https://drparashmani.com.np/videos/what-to-eat-to-prevent-kidney-stones-in-nepal" />
+    <lastmod>2025-12-03</lastmod>
+  
+    <priority>0.8</priority>
+  </url>
   <!-- Urology Info Pages -->
   <url>
     <loc>https://drparashmani.com.np/urology-info/kidney-stones</loc>
